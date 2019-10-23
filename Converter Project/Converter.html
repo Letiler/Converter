@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <script src="script.js"></script>
-
+<link rel="stylesheet" type="text/css" href="style.css">
 <head>
   <meta charset="utf-8">
   <title>Converter</title>
 </head>
 
 <body>
-  <form id="ConvertForm"
-    <p>Binary</p>
-    <input type="value" id="bi" value="">
-    <p>Hexadecmial</p>
-    <input type="value" id="hex" value="">
-    <p>ASCII</p>
-    <input type="value" id="as" value="">
-  </form>
-    <br> <button id="bu" onClick="run()" value="value">Convert</button> <br>
-  <br>  <button type="reset" onclick="reset()">Reset</button> <br>
+
+<p>Binary
+<input type="value" id="bin" value="">
+<button class="button" id="bu1" onclick="binToHex(document.getElementById('bin').value); binToAs(document.getElementById('bin').value)" value="value">Convert</button>
+Hexadecmial
+<input type="value" id="hex" value="">
+<button class="button" id="bu2" onclick="hexToAsc(document.getElementById('hex').value); hexToBin(document.getElementById('hex').value);" value="value">Convert</button>
+ASCII
+<input type="value" id="as" value="">
+<button class="button" id="bu3" onclick="asToBin(document.getElementById('as').value); asToHex(document.getElementById('as').value);" value="value">Convert</button>
+</p>
+
 </body>
 
 </html>

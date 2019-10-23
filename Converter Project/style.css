@@ -1,0 +1,40 @@
+p {
+  border: 2px solid #B22222;
+  outline: #ffa500 solid 10px;
+  margin: center;
+  padding: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background: url(minecraft.png)
+}
+
+.button {
+  background-color: #FF4500;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+input {
+padding: 5px 32px;
+}
+
+input[type=value]:focus {
+  background-color: gold;
+  border: 3px solid #555;
+}
+
+body {
+  background-image: url("owo.png");
+  background-position: top center;
+}
+
+div {
+padding: 5px 32px;
+}
