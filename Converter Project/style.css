@@ -4,9 +4,10 @@ p {
   margin: center;
   padding: 20px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Impact, Charcoal, sans-serif;
   font-size: 20px;
-  background: url(minecraft.png)
+  background-color: yellow;
+
 }
 
 .button {
@@ -33,8 +34,14 @@ input[type=value]:focus {
 body {
   background-image: url("owo.png");
   background-position: top center;
+
 }
 
 div {
 padding: 5px 32px;
+}
+
+div1 {
+font-weight: bold;
+fonts-family: Impact, Charcoal, sans-serif;
 }
